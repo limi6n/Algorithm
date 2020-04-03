@@ -1,0 +1,40 @@
+<html>
+  <script>
+    window.onload = function() {
+      test();
+    };
+
+    function solution(a, b) {
+      var answer = 0;
+
+      var maxNum = Math.max(a, b);
+      var minNum = Math.min(a, b);
+
+      if (a == b) {
+        answer = a;
+      } else {
+        for (minNum; minNum <= maxNum; minNum++) {
+          answer += minNum;
+        }
+      }
+
+      return answer;
+    }
+
+    function test() {
+      var testcase = [
+        [3, 5],
+        [3, 3],
+        [5, 3]
+      ];
+      var right = [12, 3, 12];
+
+      for (var i = 0; i < testcase.length; i++) {
+        var answer = solution(testcase[i][0], testcase[i][1]);
+        console.log(testcase[i][0] + "," + testcase[i][1]);
+        if (answer === right[i]) console.log(answer + " : true");
+        else console.log("false");
+      }
+    }
+  </script>
+</html>
