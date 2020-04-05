@@ -1,0 +1,14 @@
+{
+  "name": "algorithm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com-limi6n:limi6n/Algorithm.git",
+  "author": "limi6n <6nlimitless@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^25.2.7"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
