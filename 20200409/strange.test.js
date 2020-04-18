@@ -1,4 +1,4 @@
-const solution = require("./strangerWorld");
+const solution = require("./strangeString");
 
 test("solution", () => {
   expect(solution("try hello world")).toBe("TrY HeLlO WoRlD");
