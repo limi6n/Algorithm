@@ -1,12 +1,16 @@
 function solution(n) {
   var answer = [];
-  var sn = String(n);
+  // var sn = String(n);
 
-  for (var i = sn.length - 1; i >= 0; i--) {
-    answer.push(Number(sn[i]));
-  }
+  // for (var i = sn.length - 1; i >= 0; i--) {
+  //   answer.push(Number(sn[i]));
+  // }
 
-  console.log(answer);
+  answer = (n + "")
+    .split("")
+    .reverse()
+    .map((i) => parseInt(i));
+
   return answer;
 }
 
