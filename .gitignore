@@ -2,3 +2,5 @@ node_modules
 package.json
 yarn.lock
 .DS_Store
+
+20200509/craneDoll.js
