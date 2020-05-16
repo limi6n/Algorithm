@@ -2,10 +2,6 @@ function solution(arr) {
   var answer = [];
   var min = Math.min.apply(null, arr);
 
-  // 제일 좋아요 많았던 코드
-  //   arr.splice(arr.indexOf(Math.min(...arr)),1);
-  //   return arr;
-
   if (arr.length <= 1) {
     answer[0] = -1;
   }
