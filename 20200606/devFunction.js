@@ -27,3 +27,5 @@ function solution(progresses, speeds) {
   }
   return answer;
 }
+
+module.exports = solution;
