@@ -12,7 +12,7 @@ var generate = function (numRows) {
       if (j == 0 || j == i) {
         item.push(1);
       } else {
-        var current = arr[i - 1][item.length - 1] + arr[i - 1][item.length];
+        var current = arr[i - 1][j - 1] + arr[i - 1][j];
         item.push(current);
       }
     }
