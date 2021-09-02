@@ -13,7 +13,7 @@ var lemonadeChange = function (bills) {
       if (bill === 5) fives++;
       else if (bill === 10) {
         tens++;
-        fives--;
+        fives--; 
       } else {
         if (tens > 0) {
           tens--;
