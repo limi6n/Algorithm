@@ -21,4 +21,4 @@ function solution(priorities, location) {
   }
 }
 
-module.exports = solution;
+module.exports = solution; 
