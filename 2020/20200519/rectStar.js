@@ -15,6 +15,6 @@ process.stdin.on("data", (data) => {
   //   for (let i = 0; i < b; i++) {
   //     result += "*".repeat(a) + "\n";
   //   }
-
+ 
   console.log(result);
 });
