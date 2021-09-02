@@ -4,8 +4,8 @@ yarn.lock
 .DS_Store
 
 #카카오 크레인 인형뽑기 소스
-20200509/craneDoll.js
+2020/20200509/craneDoll.js
 #카카오 실패율 소스
-20200523/failureRate.js
+2020/20200523/failureRate.js
 #카카오 키패드 누르기
-20200817/keypad.js
+2020/20200817/keypad.js
