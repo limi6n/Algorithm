@@ -10,7 +10,7 @@ function solution(arr) {
     if (a != min) {
       answer.push(a);
     }
-  }
+  } 
 
   //   if (arr.length > 1) {
   //     arr.sort(function (a, b) {
