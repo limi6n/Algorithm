@@ -13,7 +13,7 @@ var MyQueue = function () {
  */
 MyQueue.prototype.push = function (x) {
   this.org.push(x);
-};
+}; 
 
 /**
  * Removes the element from in front of queue and returns that element.
