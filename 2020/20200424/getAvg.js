@@ -7,4 +7,4 @@ function solution(arr) {
   return answer;
 }
 
-module.exports = solution;
+module.exports = solution; 
