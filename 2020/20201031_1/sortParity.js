@@ -15,7 +15,7 @@ var sortArrayByParityII = function (A) {
     } else {
       odd.push(A[i]);
     }
-  }
+  } 
 
   for (let i = 0; i < A.length; i++) {
     if (A[i] % 2 === 0) {
