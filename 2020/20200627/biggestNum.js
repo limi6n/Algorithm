@@ -11,4 +11,4 @@ function solution(numbers) {
   return answer;
 }
 
-module.exports = solution;
+module.exports = solution; 
