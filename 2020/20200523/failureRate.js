@@ -14,7 +14,7 @@ function solution(N, stages) {
     temp = temp - count;
     rate.push({ N: n, fRate: failure });
   }
-
+ 
   //다른 사람 풀이 참조
   return rate
     .sort((a, b) => {
