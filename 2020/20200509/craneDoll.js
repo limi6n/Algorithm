@@ -13,7 +13,7 @@ const solution = (board, moves) => {
 
   for (const move of moves) {
     const pop = stacks[move - 1].pop();
-    if (!pop) continue;
+    if (!pop) continue; 
     if (pop === basket[basket.length - 1]) {
       basket.pop();
       result += 2;
