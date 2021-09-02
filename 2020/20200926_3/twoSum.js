@@ -15,7 +15,7 @@ var twoSum = function (numbers, target) {
         result.push(i + 1);
         result.push(j + 1);
       }
-    }
+    } 
   }
 
   return result;
