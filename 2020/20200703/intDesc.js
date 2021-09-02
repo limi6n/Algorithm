@@ -4,7 +4,7 @@ function solution(n) {
 
   var s = n.toString();
 
-  for (let i of s) {
+  for (let i of s) { 
     arr.push(i);
   }
 
