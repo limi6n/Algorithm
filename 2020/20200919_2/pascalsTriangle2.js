@@ -17,7 +17,7 @@ var getRow = function (rowIndex) {
       }
     }
     arr.push(item);
-  }
+  } 
 
   return arr[rowIndex];
 };
