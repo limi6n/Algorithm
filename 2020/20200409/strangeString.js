@@ -6,7 +6,7 @@ function solution(s) {
   var world = s.split(" ");
 
   for (var j in world) {
-    for (var k in world[j]) {
+    for (var k in world[j]) { 
       k % 2 === 0
         ? (changeWorld += world[j][k].toUpperCase())
         : (changeWorld += world[j][k].toLowerCase());
