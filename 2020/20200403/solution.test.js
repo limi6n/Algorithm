@@ -1,5 +1,5 @@
 const solution = require("./sumbetween2intergers");
 
-test("solution", () => {
+test("solution", () => { 
   expect(solution(3, 5)).toBe(12);
 });

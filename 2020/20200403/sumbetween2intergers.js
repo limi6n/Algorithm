@@ -4,7 +4,7 @@ function solution(a, b) {
   var maxNum = Math.max(a, b);
   var minNum = Math.min(a, b);
 
-  if (a == b) {
+  if (a == b) { 
     answer = a;
   } else {
     for (minNum; minNum <= maxNum; minNum++) {
