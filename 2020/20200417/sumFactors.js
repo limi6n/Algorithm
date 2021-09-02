@@ -9,6 +9,6 @@ function solution(n) {
   answer = arr.reduce((acc, a) => acc + a, 0);
 
   return answer;
-}
+} 
 
 module.exports = solution;
