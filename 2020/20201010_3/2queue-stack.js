@@ -5,7 +5,7 @@ var MyStack = function () {
   this.org = [];
   this.temp = [];
 };
-
+ 
 /**
  * Push element x onto stack.
  * @param {number} x
