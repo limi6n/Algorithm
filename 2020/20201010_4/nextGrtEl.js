@@ -15,7 +15,7 @@ var nextGreaterElement = function (nums1, nums2) {
         break;
       }
     }
-
+ 
     map.set(nums2[i], val);
   }
 
