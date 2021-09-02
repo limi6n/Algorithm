@@ -1,6 +1,6 @@
 function solution(progresses, speeds) {
   var answer = [];
-  var days = [];
+  var days = []; 
 
   for (var i = 0; i < progresses.length; i++) {
     var day = 0;
