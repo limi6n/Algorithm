@@ -14,6 +14,6 @@ var findContentChildren = function (g, s) {
     if (num >= g[j]) res++, j++;
   }
   return res;
-};
+}; 
 
 module.exports = findContentChildren;
