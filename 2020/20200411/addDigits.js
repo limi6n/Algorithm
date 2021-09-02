@@ -9,4 +9,4 @@ function solution(n) {
   return answer;
 }
 
-module.exports = solution;
+module.exports = solution; 
