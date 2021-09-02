@@ -17,6 +17,6 @@ var isAnagram = function (s, t) {
     if (fArr.length == 0) return true;
     else return false;
   }
-};
+}; 
 
 module.exports = isAnagram;

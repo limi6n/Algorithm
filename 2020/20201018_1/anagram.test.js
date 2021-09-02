@@ -7,3 +7,4 @@ test("solution", () => {
 test("solution", () => {
   expect(solution("acca", "accc")).toStrictEqual(false);
 });
+ 
