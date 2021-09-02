@@ -15,6 +15,6 @@ var largestPerimeter = function (A) {
   }
 
   return result;
-};
+}; 
 
 module.exports = largestPerimeter;
