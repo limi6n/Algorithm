@@ -12,6 +12,6 @@ function solution(arrangement) {
     }
   }
   return answer;
-}
+} 
 
 module.exports = solution;
