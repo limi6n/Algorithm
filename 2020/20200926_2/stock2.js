@@ -11,7 +11,7 @@ var maxProfit = function (prices) {
     }
   }
 
-  return result;
+  return result; 
 };
 
 module.exports = maxProfit;
