@@ -3,7 +3,7 @@
  */
 var MinStack = function () {
   this.stack = [];
-};
+}; 
 
 /**
  * @param {number} x
