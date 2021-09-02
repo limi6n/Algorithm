@@ -12,7 +12,7 @@ function calDist(num, leftNow, rightNow, pos, handed) {
   if (leftDist === rightDist) return handed === "right" ? "R" : "L";
   return leftDist > rightDist ? "R" : "L";
 }
-
+ 
 function solution(numbers, hand) {
   // 왼손잡이인지 오른손잡이인지
   const HANDED = hand;
