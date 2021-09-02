@@ -16,7 +16,7 @@ var maxProfit = function (prices) {
   //       result = temp[i].value - temp[0].value;
   //       break;
   //     } else result = 0;
-  //   }
+  //   } 
 
   for (var i = 1; i < prices.length; i++) {
     for (var j = i + 1; j < prices.length; j++) {
