@@ -11,7 +11,7 @@ function solution(n) {
     .reverse()
     .map((i) => parseInt(i));
 
-  return answer;
+  return answer; 
 }
 
 module.exports = solution;
