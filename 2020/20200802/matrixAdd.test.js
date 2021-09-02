@@ -15,5 +15,5 @@ test("solution", () => {
   ).toStrictEqual([
     [4, 6],
     [7, 9],
-  ]);
+  ]); 
 });
