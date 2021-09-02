@@ -10,7 +10,7 @@
 
 ## 3. 실행
 
-## 4. 회고
+## 4. 회고 
 
     처음에는 반복문을 통해 length-4 일 때 까지는 * 으로 바꾸려고 했는데 TypeError: Cannot assign to read only property '0' of string
     에러가 나서 찾아보다가 문자열을 주어진 횟수만큼 반복해 붙인 새로운 문자열을 반환하는 repeat 함수를 알게 되어 해결하게 되었다.
