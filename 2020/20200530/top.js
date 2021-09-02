@@ -12,7 +12,7 @@ function solution(heights) {
     } else {
       answer.push(0);
     }
-
+ 
     temp.push(i);
   }
 
