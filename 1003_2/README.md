@@ -12,7 +12,7 @@
     +-------------+---------+ <br>
     PersonId is the primary key column for this table.
     This table contains information about the ID of some persons and their first and last names.
-    <br><br>
+    <hr>
     Table : Address <br>
     +-------------+---------+ <br>
     | Column Name | Type | <br>
